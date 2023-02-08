@@ -24,7 +24,6 @@ CREATE TABLE 'symbol' (
 
 CREATE TABLE 'daily_price' (
   'id' int NOT NULL AUTO_INCREMENT,
-  'data_vendor_id' int NOT NULL,
   'symbol_id' int NOT NULL,
   'price_date' date NOT NULL,
   'created_date' datetime NOT NULL,
